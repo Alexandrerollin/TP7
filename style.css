@@ -38,9 +38,18 @@ body {
 }
 
 .anim-2 {
+    position: absolute;
     animation: animation-2 2s infinite;
     animation-direction: alternate;
-    animation-timing-function: ease-in-out;
-    position: absolute;
+    animation-timing-function: ease-in-out;    
+}
+
+@keyframes animation-2 {
+    0% {
+    margin-left: 160px;
+    }
+    100% {
+       margin-top: 160px; 
+    }
 }
 
