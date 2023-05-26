@@ -7,9 +7,9 @@ body {
 /* Class sélectors */
 
 .container {
-    height: 200px;
+    /* height: 200px;
     width: 200px;
-    border: 2px solid black;
+    border: 2px solid black; */
     position: relative;
 }
 
@@ -30,10 +30,12 @@ body {
 
 @keyframes animation-1 {
     0% {
+        background-color: gold;
     margin-left: 80px;
     }
     100% {
        margin-top: 160px; 
+       background-color: purple;
     }
 }
 
@@ -46,9 +48,11 @@ body {
 
 @keyframes animation-2 {
     0% {
+        background-color: fuchsia;
     margin-left: 160px;
     }
     100% {
+        background-color: #00f900;
        margin-top: 160px; 
     }
 }
@@ -61,16 +65,20 @@ body {
 
 @keyframes animation-3 {
     0% {
-        translate: 0px 0px;
+        background-color: #00f900;
+      }
+      33% {
+        margin-top: 0px;
+        margin-left: 160px;
+      }
+      66% {
+        margin-top: 160px;
+        margin-left: 0px;
+      }
+      100% {
+        margin-top: 160px;
+        margin-left: 160px;
+        background-color: #d50606;
+      }
     }
-    33% {
-        translate: 160px 0px;
-    }
-    66% {
-        translate: 0px 160px;
-    }
-    100% {
-        translate: 160px 160px;
-    }
-}
 
