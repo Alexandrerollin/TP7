@@ -10,6 +10,7 @@ body {
     height: 200px;
     width: 200px;
     border: 2px solid black;
+    position: relative;
 }
 
 .circle {
@@ -22,6 +23,9 @@ body {
 .anim-1 {
     margin-left: 80px;
     animation: animation-1 2s infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    position: absolute;
 }
 
 @keyframes animation-1 {
@@ -31,5 +35,12 @@ body {
     100% {
        margin-top: 160px; 
     }
+}
+
+.anim-2 {
+    animation: animation-2 2s infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    position: absolute;
 }
 
