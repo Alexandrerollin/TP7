@@ -12,3 +12,9 @@ body {
     border: 2px solid black;
 }
 
+.circle {
+    background-color: blueviolet;
+    height: 40px;
+    width: 40px;
+}
+
