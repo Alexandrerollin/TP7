@@ -16,5 +16,10 @@ body {
     background-color: blueviolet;
     height: 40px;
     width: 40px;
+    border-radius: 25px;
+}
+
+.anim-1 {
+    margin-left: 80px;
 }
 
