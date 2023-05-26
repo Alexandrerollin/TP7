@@ -53,3 +53,24 @@ body {
     }
 }
 
+.anim-3 {
+    position: absolute;
+    animation: animation-3 3s infinite alternate;
+    /* animation-timing-function: ease-in; */
+}
+
+@keyframes animation-3 {
+    0% {
+        translate: 0px 0px;
+    }
+    33% {
+        translate: 160px 0px;
+    }
+    66% {
+        translate: 0px 160px;
+    }
+    100% {
+        translate: 160px 160px;
+    }
+}
+
