@@ -22,9 +22,7 @@ body {
 
 .anim-1 {
     margin-left: 80px;
-    animation: animation-1 2s infinite;
-    animation-direction: alternate;
-    animation-timing-function: ease-in-out;
+    animation: animation-1 2s infinite alternate ease-in-out;
     position: absolute;
 }
 
@@ -41,9 +39,7 @@ body {
 
 .anim-2 {
     position: absolute;
-    animation: animation-2 2s infinite;
-    animation-direction: alternate;
-    animation-timing-function: ease-in-out;    
+    animation: animation-2 2s infinite alternate ease-in-out;
 }
 
 @keyframes animation-2 {
@@ -59,8 +55,7 @@ body {
 
 .anim-3 {
     position: absolute;
-    animation: animation-3 3s infinite alternate;
-    /* animation-timing-function: ease-in; */
+    animation: animation-3 3s infinite alternate ease-in-out;
 }
 
 @keyframes animation-3 {
