@@ -1,4 +1,7 @@
 /* Elements sélectors  */
+h1 {
+    text-align: center;
+}
 
 body {
     background-color: aqua ;
@@ -7,26 +10,20 @@ body {
 /* Class sélectors */
 
 .container {
-    /* height: 200px;
-    width: 200px;
-    border: 2px solid black; */
     position: relative;
+    transform: translate(45%, 100px);
 }
 
 .circle {
     height: 40px;
     width: 40px;
     border-radius: 25px;
-}
-
-.anim {
     position: absolute;
-    animation: 3s infinite alternate ease-in-out;
 }
 
 .anim-1 {
     margin-left: 80px;
-    animation: animation-1;
+    animation: animation-1 3s infinite alternate ease-in-out;
 }
 
 @keyframes animation-1 {
@@ -41,7 +38,7 @@ body {
 }
 
 .anim-2 {
-    animation: animation-2;
+    animation: animation-2 3s infinite alternate ease-in-out;
 }
 
 @keyframes animation-2 {
@@ -56,7 +53,7 @@ body {
 }
 
 .anim-3 {
-    animation: animation-3;
+    animation: animation-3 3s infinite alternate ease-in-out;
 }
 
 @keyframes animation-3 {
